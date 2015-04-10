@@ -1,2 +1,2 @@
-# battlestar
-Deploy your fleet on the cloud
+# Battlestar
+Deploy your fleet in the space
