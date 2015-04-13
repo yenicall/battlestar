@@ -7,7 +7,7 @@ var http = require('http'),
     port = process.env.PORT || 0;
 server.listen(port, function () {
     console.log(process.cwd());
-    if(Math.random()>0.3){
-        throw new Error("die");
+    if(Math.random()>0.6){
+        throw new Error("die 2");
     }
 });

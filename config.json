@@ -1,0 +1,4 @@
+{
+  "test": "test/app.js",
+  "test2": "test/app2.js"
+}
