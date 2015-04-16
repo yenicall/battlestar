@@ -40,7 +40,8 @@
     "shelljs": "^0.4.0",
     "strong-service-install": "^1.1.2",
     "tar-fs": "^1.5.0",
-    "uid-number": "0.0.6"
+    "uid-number": "0.0.6",
+    "wrench": "^1.5.8"
   },
   "repository": {
     "type": "git",
