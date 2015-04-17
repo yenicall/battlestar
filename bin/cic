@@ -1,0 +1,24 @@
+#!/bin/sh
+':' //; exec "$(command -v nodejs || command -v node)" --expose-gc --always-compact -- "$0" "$@"
+
+function printHelp($0, prn) {
+    var usageFile = require.resolve('../bin/' + $0.replace('js', 'txt'));
+    var USAGE = fs.readFileSync(usageFile, 'utf-8')
+        .replace(/%MAIN%/g, $0)
+        .trim();
+    prn(USAGE);
+}
+
+function parseInput(argv){
+
+}
+try {
+    var args = [].slice.call(process.argv,1),
+        $0 = args.shift();
+    if(!args.length){
+        printHelp($0,console.log);
+    }
+    console.log(args);
+}catch(err){
+    process.exit(1);
+}
