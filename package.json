@@ -1,6 +1,6 @@
 {
   "name": "battlestar",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "author": {
     "name": "Pedro Mangabeira",
     "email": "pedro@easy-guild.net"
@@ -22,7 +22,8 @@
     "viper-install": "./bin/viper-install.js",
     "viper": "./bin/viper.js",
     "cag-install": "./bin/cag-install.js",
-    "cag": "./bin/cag.js"
+    "cag": "./bin/cag.js",
+    "cic": "./bin/cic.js"
   },
   "dependencies": {
     "async": "^0.9.0",
